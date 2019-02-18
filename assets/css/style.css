@@ -1,0 +1,146 @@
+/*..................................................................................specialities*/
+
+@import url('https://fonts.googleapis.com/css?family=Righteous:100,200,300,400,500,600,700,800,900|Exo:100,200,300,400,500,600,700,800');
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.margin {
+    margin: 0px;
+    padding: 0px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/*..................................................................................bg-colors*/
+
+.header-bg-color {
+    background-image: url(../images/header-background.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.footer-bg-color {
+    background-color: #717171;
+}
+
+/*..................................................................................header*/
+
+.title {
+    text-align: center;
+    font-family: "Righteous", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+.box {
+    border: #000 solid 1px;
+    background-color: #000;
+    border-radius: 30px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/*..................................................................................home page main*/
+
+.section {
+    padding: 0;
+    margin: 0;
+}
+
+.our-songs-logo {
+    background-image: url(../images/our-songs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.social-media-logo {
+    background-image: url(../images/social-media.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.our-events-logo {
+    background-image: url(../images/our-events.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.our-story-logo {
+    background-image: url(../images/our-story.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home-page-links {
+    width: 100%;
+    height: 360px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.title-2 {
+    text-align: center;
+    font-family: "Righteous", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #ffffff;
+    margin-top: 180px;
+    padding: 0px;
+}
+
+.border {
+    border: #000 solid 1px;
+    background-color: #000;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+/*..................................................................................footer*/
+
+.footer-title {
+    text-align: center;
+    font-family: "Righteous", sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+}
+
+
+
+/*..................................................................................media*/
+
+@media (min-width: 767px) {
+    .title {
+        font-size: 60px;
+    }
+
+    .home-page-links {
+        width: 50%;
+    }
+
+    .box {
+        width: 600px;
+    }
+
+    .title-2 {
+        font-size: 40px;
+    }
+
+    .footer-title {
+        font-size: 15px;
+    }
+}
