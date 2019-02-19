@@ -110,6 +110,10 @@ html {
     padding: 5px;
 }
 
+section div a .hvr-sweep-to-bottom:before {
+    background: rgba(0, 0, 0, 0.4) !important;
+}
+
 /*..................................................................................footer*/
 
 .footer-title {
@@ -119,6 +123,52 @@ html {
     font-size: 10px;
 }
 
+.footer-p {
+    text-align: center;
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+}
+
+.btn {
+    margin-top: 5px;
+    background-color: #8f8f8f;
+    color: #fafafa;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #ff1313;
+    color: #ffffff;
+}
+
+.social-links {
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #ff1313;
+}
 
 
 /*..................................................................................media*/
