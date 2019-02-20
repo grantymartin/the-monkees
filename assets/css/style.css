@@ -44,7 +44,7 @@ html {
     border: #000 solid 1px;
     background-color: #000;
     border-radius: 30px;
-    width: 300px;
+    width: 210px;
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -97,7 +97,7 @@ html {
     text-align: center;
     font-family: "Righteous", sans-serif;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 20px;
     color: #ffffff;
     margin-top: 180px;
     padding: 0px;
@@ -107,11 +107,11 @@ html {
     border: #000 solid 1px;
     background-color: #000;
     border-radius: 30px;
-    padding: 5px;
+    padding: 10px;
 }
 
 section div a .hvr-sweep-to-bottom:before {
-    background: rgba(0, 0, 0, 0.4) !important;
+    background: rgba(0, 0, 0, 0.7) !important;
 }
 
 /*..................................................................................footer*/
@@ -173,7 +173,25 @@ section div a .hvr-sweep-to-bottom:before {
 
 /*..................................................................................media*/
 
-@media (min-width: 767px) {
+@media (min-width: 400px) {
+    .title {
+        font-size: 30px;
+    }
+
+    .box {
+        width: 300px;
+    }
+
+    .title-2 {
+        font-size: 30px;
+    }
+
+    .footer-title {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 850px) {
     .title {
         font-size: 60px;
     }
