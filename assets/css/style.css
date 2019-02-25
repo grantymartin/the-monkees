@@ -16,6 +16,14 @@ html {
     text-transform: uppercase;
 }
 
+.link {
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: none;
+}
+
 /*..................................................................................bg-colors*/
 
 .header-bg-color {
@@ -27,6 +35,37 @@ html {
 
 .footer-bg-color {
     background-color: #717171;
+}
+
+.menu-option-1 {
+    background-color: #ac4097;
+}
+
+.menu-option-2 {
+    background-color: #fdfc06;
+}
+
+.menu-option-3 {
+    background-color: #f39314;
+}
+
+.menu-option-4 {
+    background-color: #ee228c;
+}
+
+.events-bg {
+    background-color: #af19fa;
+}
+
+.bg-transparent {
+    background: rgba(0, 0, 0, 0.5)
+}
+
+.events-list-bg {
+    background-image: url(../images/monkees-events-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 /*..................................................................................header*/
@@ -48,6 +87,23 @@ html {
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+/*..................................................................................dropdown header*/
+
+.monkees-nav {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    margin: 10px 0 0 10px;
+}
+
+.menu-option {
+    font-family: "Righteous", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: #ffffff;
+    text-align: center;
 }
 
 
@@ -110,8 +166,59 @@ html {
     padding: 10px;
 }
 
-section div a .hvr-sweep-to-bottom:before {
+.hvr-sweep-to-bottom:before {
     background: rgba(0, 0, 0, 0.7) !important;
+}
+
+/*..................................................................................events/availability*/
+
+.title-3 {
+    text-align: center;
+    font-family: "Righteous", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.events-intro {
+    text-align: center;
+    font-family: "Righteous", sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.events-list {
+    font-family: "Righteous", sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+    color: #ffffff;
+    list-style: none;
+    z-index: 1;
+    text-align: center;
+}
+
+.events-list-item {
+    margin-bottom: 20px;
+}
+
+.events {
+    margin: 0 auto;
+    width: 100%;
+    height: 600px;
+}
+
+.events-location {
+    padding-right: 3%;
+}
+
+.events-tickets {
+    text-align: center;
+    color: #51ff00;
+}
+
+.events-date {
+    padding-left: 3%;
 }
 
 /*..................................................................................footer*/
@@ -189,6 +296,20 @@ section div a .hvr-sweep-to-bottom:before {
     .footer-title {
         font-size: 15px;
     }
+
+    .events {
+        margin: 0 auto;
+        width: 70%;
+        height: 600px;
+    }
+
+    .events-location {
+        padding-right: 10%;
+    }
+
+    .events-date {
+        padding-left: 10%;
+    }
 }
 
 @media (min-width: 850px) {
@@ -210,5 +331,15 @@ section div a .hvr-sweep-to-bottom:before {
 
     .footer-title {
         font-size: 15px;
+    }
+}
+
+@media (max-width:850px) {
+    .menu-option {
+        height: 80px;
+    }
+
+    .option-item {
+        margin-top: 20px;
     }
 }
