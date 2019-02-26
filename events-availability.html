@@ -44,21 +44,84 @@
         </div>
         <div class="row events-bg margin ">
             <p class="events-intro">We have events planned for the follwing dates and venues</p>
-            <div class="events-list-bg events">
-                <ul class="events-list bg-transparent container-fluid margin">
-                    <li class="events-list-item"><span class="events-location">Liverpool</span><span class="events-tickets">-tickets available-</span><span class="events-date">03/03/2019</span></li>
-                    <li class="events-list-item"><span class="events-location">london</span><span class="events-tickets">-tickets available-</span><span class="events-date">03/03/2019</span></li>
-                    <li class="events-list-item"><span class="events-location">manchester</span><span class="events-tickets">-tickets available-</span><span class="events-date">03/03/2019</span></li>
-                    <li class="events-list-item"><span class="events-location">birmingham</span><span class="events-tickets">-tickets available-</span><span class="events-date">03/03/2019</span></li>
-                    <li class="events-list-item"><span class="events-location">edinburgh</span><span class="events-tickets">-tickets available-</span><span class="events-date">03/03/2019</span></li>
-                    <li class="events-list-item"><span class="events-location">gla</span><span class="events-tickets">-tickets available-</span><span class="events-date">03/03/2019</span></li>
-                    <li class="events-list-item"><span class="events-location">Liverpool</span><span class="events-tickets">-tickets available-</span><span class="events-date">03/03/2019</span></li>
+            <div class="events-list-bg events margin">
+                <ul class="events-list bg-transparent margin">
+                    </br>
+                    <li class="events-list-item">
+                        <div class="events-location in-line margin col-xs-4">London</div>
+                        <div class="sold-out in-line margin col-xs-4">-SOLD OUT-</div>
+                        <div class="events-date in-line margin col-xs-4">03/03/2019</div>
+                    </li>
+                    </br>
+                    <li class="events-list-item">
+                        <div class="events-location in-line margin col-xs-4">Bristol</div>
+                        <div class="events-tickets in-line margin col-xs-4">-tickets available-</div>
+                        <div class="events-date in-line margin col-xs-4">03/03/2019</div>
+                    </li>
+                    </br>
+                    <li class="events-list-item">
+                        <div class="events-location in-line margin col-xs-4">Swansea</div>
+                        <div class="events-tickets in-line margin col-xs-4">-tickets available-</div>
+                        <div class="events-date in-line margin col-xs-4">03/03/2019</div>
+                    </li>
+                    </br>
+                    <li class="events-list-item">
+                        <div class="events-location in-line margin col-xs-4">Birmingham</div>
+                        <div class="sold-out in-line margin col-xs-4">-SOLD OUT-</div>
+                        <div class="events-date in-line margin col-xs-4">03/03/2019</div>
+                    </li>
+                    </br>
+                    <li class="events-list-item">
+                        <div class="events-location in-line margin col-xs-4">Liverpool</div>
+                        <div class="sold-out in-line margin col-xs-4">-SOLD OUT-</div>
+                        <div class="events-date in-line margin col-xs-4">03/03/2019</div>
+                    </li>
+                    </br>
+                    <li class="events-list-item">
+                        <div class="events-location in-line margin col-xs-4">Manchester</div>
+                        <div class="sold-out in-line margin col-xs-4">-SOLD OUT-</div>
+                        <div class="events-date in-line margin col-xs-4">03/03/2019</div>
+                    </li>
+                    </br>
+                    <li class="events-list-item">
+                        <div class="events-location in-line margin col-xs-4">Leeds</div>
+                        <div class="events-tickets in-line margin col-xs-4">-tickets available-</div>
+                        <div class="events-date in-line margin col-xs-4">03/03/2019</div>
+                    </li>
+                    </br>
+                    <li class="events-list-item">
+                        <div class="events-location in-line margin col-xs-4">Glasgow</div>
+                        <div class="sold-out in-line margin col-xs-4">-SOLD OUT-</div>
+                        <div class="events-date in-line margin col-xs-4">03/03/2019</div>
+                    </li>
+                    </br>
+                    <li class="events-list-item">
+                        <div class="events-location in-line margin col-xs-4">Edinburgh</div>
+                        <div class="events-tickets in-line margin col-xs-4">-tickets available-</div>
+                        <div class="events-date in-line margin col-xs-4">03/03/2019</div>
+                    </li>
                 </ul>
             </div>
         </div>
 
-        <div class="row margin">
-            <h2 class="uppercase title-2">availability</h2>
+        <div class="row margin availability-bg">
+            <h2 class="uppercase title-3">availability</h2>
+        </div>
+
+        <div class="row margin availability-bg form">
+            <p class="events-intro">Complete the short form below if you are interested in booking our services!</p>
+            <form action="#" method="post">
+                <label for="name" class="events-intro">Name:</label></br>
+                <input type="text" name="name" id="name" placeholder="Name" class="form-item" required/></br>
+
+                <label for="email" class="events-intro">Email:</label></br>
+                <input type="email" name="email" id="email" placeholder="Email" class="form-item" required/></br>
+
+                <label for="details" class="events-intro">Events details (date/time/place):</label></br>
+                <textarea rows="5" name="details" class="form-item-details" id="details" placeholder="Details"></textarea></br>
+
+                <input type="submit" value="Submit" class="form-item btn" />
+            </form>
         </div>
     </section>
 

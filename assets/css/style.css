@@ -68,6 +68,10 @@ html {
     background-size: cover;
 }
 
+.availability-bg {
+    background-color: #004cda;
+}
+
 /*..................................................................................header*/
 
 .title {
@@ -104,6 +108,11 @@ html {
     font-size: 25px;
     color: #ffffff;
     text-align: center;
+    height: 80px;
+}
+
+.option-item {
+    margin-top: 20px;
 }
 
 
@@ -176,7 +185,7 @@ html {
     text-align: center;
     font-family: "Righteous", sans-serif;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 35px;
     color: #ffffff;
 }
 
@@ -196,10 +205,11 @@ html {
     list-style: none;
     z-index: 1;
     text-align: center;
+    height: 600px;
 }
 
 .events-list-item {
-    margin-bottom: 20px;
+    margin-bottom: 45px;
 }
 
 .events {
@@ -208,17 +218,32 @@ html {
     height: 600px;
 }
 
-.events-location {
-    padding-right: 3%;
+.in-line {
+    display: inline-block;
 }
 
 .events-tickets {
     text-align: center;
     color: #51ff00;
+    font-size: 12px;
 }
 
-.events-date {
-    padding-left: 3%;
+.sold-out {
+    text-align: center;
+    color: #ea0000;
+    font-size: 14px;
+}
+
+.form {
+    text-align: center;
+}
+
+.form-item {
+    margin-bottom: 10px;
+}
+
+.form-item-details {
+    width: 250px;
 }
 
 /*..................................................................................footer*/
@@ -297,18 +322,20 @@ html {
         font-size: 15px;
     }
 
-    .events {
-        margin: 0 auto;
-        width: 70%;
-        height: 600px;
+    .menu-option {
+        height: 35px;
     }
 
-    .events-location {
-        padding-right: 10%;
+    .option-item {
+        margin-top: 0px;
     }
 
-    .events-date {
-        padding-left: 10%;
+    .form-item-details {
+        width: 330px;
+    }
+
+    .title-3 {
+        font-size: 30px;
     }
 }
 
@@ -332,14 +359,26 @@ html {
     .footer-title {
         font-size: 15px;
     }
-}
 
-@media (max-width:850px) {
-    .menu-option {
-        height: 80px;
+    .events {
+        margin: 0 auto;
+        width: 70%;
+        height: 600px;
     }
 
-    .option-item {
-        margin-top: 20px;
+    .events-tickets {
+        font-size: 15px;
+    }
+
+    .sold-out {
+        font-size: 15px;
+    }
+
+    .form-item-details {
+        width: 400px;
+    }
+
+    .title-3 {
+        font-size: 40px;
     }
 }
