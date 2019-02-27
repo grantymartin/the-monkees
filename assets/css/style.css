@@ -24,6 +24,18 @@ html {
     text-decoration: none;
 }
 
+.intro {
+    text-align: center;
+    font-family: "Righteous", sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.line{
+    color: #ffffff;
+}
+
 /*..................................................................................bg-colors*/
 
 .header-bg-color {
@@ -70,6 +82,18 @@ html {
 
 .availability-bg {
     background-color: #004cda;
+}
+
+.social-media-bg {
+    background-color: #d65b00;
+}
+
+.our-story-bg {
+    background-color: #2874A6;
+}
+
+.our-songs-bg {
+    background-color: #27AE60;
 }
 
 /*..................................................................................header*/
@@ -189,14 +213,6 @@ html {
     color: #ffffff;
 }
 
-.events-intro {
-    text-align: center;
-    font-family: "Righteous", sans-serif;
-    font-weight: 200;
-    font-size: 20px;
-    color: #ffffff;
-}
-
 .events-list {
     font-family: "Righteous", sans-serif;
     font-weight: 100;
@@ -246,7 +262,134 @@ html {
     width: 250px;
 }
 
-/*..................................................................................footer*/
+/*..................................................................................social media*/
+
+.social-links-page {
+    padding-top: 8px;
+    padding-bottom: 7px;
+    text-align: center;
+}
+
+.social-links-page li a i {
+    width: 200px;
+    height: 200px;
+    padding: 100px 0;
+    border-radius: 50%;
+    font-size: 100px;
+    line-height: 7px;
+    text-align: center;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all .35s ease-in-out;
+}
+
+.fb-logo-bg {
+    background-color: #3b5998;
+    color: #ffffff;
+}
+
+.twitter-logo-bg {
+    background-color: #38a1f3;
+    color: #ffffff;
+}
+
+.youtube-logo-bg {
+    background-color: #ffffff;
+    color: #ff0000;
+}
+
+.fb-logo-bg:hover {
+    background-color: #314B81;
+}
+
+.twitter-logo-bg:hover {
+    background-color: #386EF3;
+}
+
+.youtube-logo-bg:hover {
+    background-color: #dadada;
+}
+
+.social-logo {
+    margin-bottom: 20px;
+}
+
+.social-media-para {
+    text-align: center;
+    font-family: "Righteous", sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+/*..................................................................................Our-story*/
+
+.title-4 {
+    text-align: center;
+    font-family: "Righteous", sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    color: #ffffff;
+}
+
+.member-info {
+    color: #000
+}
+
+.member-name {
+    color: #000;
+}
+
+.deceased {
+    font-size: 14px;
+}
+
+.our-story-para {
+    text-align: center;
+    font-family: "Righteous", sans-serif;
+    font-weight: 100;
+    font-size: 23px;
+    color: #ffffff;
+    margin: 10px 20px;
+}
+
+.our-story-img-1 {
+    float: left;
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.our-story-img-2 {
+    width: 50%;
+    height: 400px;
+}
+
+/*..................................................................................Our songs*/
+
+.music-title {
+    text-align: center;
+    font-family: "Righteous", sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.music {
+    display: table;
+    margin: 10px auto;
+    width: 50%;
+}
+
+.album-logo {
+    display: table;
+    margin: 10px auto;
+    width: 250px;
+    height: 250px;
+}
+
+/*.................................................................................footer*/
 
 .footer-title {
     text-align: center;
@@ -322,20 +465,24 @@ html {
         font-size: 15px;
     }
 
-    .menu-option {
-        height: 35px;
-    }
-
-    .option-item {
-        margin-top: 0px;
-    }
-
     .form-item-details {
         width: 330px;
     }
 
     .title-3 {
         font-size: 30px;
+    }
+
+    .our-story-img-1 {
+        float: right;
+        width: 350px;
+        height: 300px;
+        margin: 5px 10px;
+    }
+
+    .album-logo {
+        width: 300px;
+        height: 300px;
     }
 }
 
@@ -354,6 +501,14 @@ html {
 
     .title-2 {
         font-size: 40px;
+    }
+
+    .menu-option {
+        height: 35px;
+    }
+
+    .option-item {
+        margin-top: 0px;
     }
 
     .footer-title {
@@ -380,5 +535,27 @@ html {
 
     .title-3 {
         font-size: 40px;
+    }
+
+    .our-story-img-1 {
+        float: right;
+        width: 350px;
+        height: 270px;
+        margin: 5px 15px;
+    }
+    
+    .album-logo {
+        width: 450px;
+        height: 450px;
+    }
+}
+
+@media (min-width: 1100px) {
+
+    .our-story-img-1 {
+        float: right;
+        width: 500px;
+        height: 380px;
+        margin: 5px 15px;
     }
 }
