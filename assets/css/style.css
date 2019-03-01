@@ -203,6 +203,10 @@ html {
     background: rgba(0, 0, 0, 0.7) !important;
 }
 
+.video {
+    width: 100%;
+}
+
 /*..................................................................................events/availability*/
 
 .title-3 {
