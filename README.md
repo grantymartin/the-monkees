@@ -34,47 +34,48 @@ Links to the Social accounts are currently inactive and the availability form is
 
 Everything element and design was made using HTML and CSS. All 
 
-
-
-
-
-
-
-
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+All wireframes and planning was written out in paper before the project was started.
+................................................
 
 Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+To test my site I took multiple diffrent approaches. Firstly I used google chrome to inspect my site on diffrent screen sizes and insure it was fully functional.
+Following that  I used W3C Validator to insure my code was written properly and correct. 
+My 3rd approach to testing my site was to send the site to multiple diffrent people and ask for feedback on user experience. I sent my site to 5 diffrent people
+and all said functionally it worked really well.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+I asked them all to check every page and all aspects on those pages from the video on the "index page", to the sound pieces on the "our songs" page.
 
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+I also made sure that all the people I sent my site to were using diffrent screen sizes which insured a more thorough test.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+Throughout the project there were minor issues but the hardest to fix was on the "events/availability" page. When creating the Venue Items and creating an
+image background cover with a fade it was difficult. After a lot of diffrent testing I found what I needed to do was rearrange the order in which the backgrounds
+covered each other.
 
 Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+When first uploading my site to git hub I found that the imgs/ video and sound would'nt appear on git hub but worked perfectly well on the Cloud 9 preview 
+site. After working with my tutor we descovered it was due to the reason all the imgs were set as relative links when they should really be absolute.
 
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+Credits:
+All the information from the site was gained from https://en.wikipedia.org/wiki/The_Monkees
+The events dates info from the "event/availability" page is incorrect and false (simply for the project).
 
-Credits
-Content
-The text for section Y was copied from the Wikipedia article Z
 Media
-The photos used in this site were obtained from ...
+The photos used in this site were obtained either from the following git hub repository(https://github.com/Code-Institute-Org/project-assets)
+or from the folling sites:
+
+https://cs.m.wikipedia.org/wiki/Soubor:The_Monkees_May_1967.jpg
+https://commons.wikimedia.org/wiki/File:The_Monkees_1967.jpg
+https://fr.wikipedia.org/wiki/Fichier:The_Monkees.jpg
+https://www.maxpixel.net/Circles-60s-Background-Retro-Abstract-70s-2863542
+https://es.wikipedia.org/wiki/The_Monkees
+http://mentalfloss.com/article/66101/11-things-you-might-not-know-about-monkees
+https://www.theguardian.com/music/2011/feb/21/the-monkees-60s-uk-tour
+https://en.wikipedia.org/wiki/Daydream_Believer
+https://www.stereogum.com/2016576/the-number-ones-the-monkees-im-a-believer/franchises/the-number-ones/
+https://en.wikipedia.org/wiki/Last_Train_to_Clarksville
+
 Acknowledgements
-I received inspiration for this project from X
+I received inspiration for this project from my Dad in term of the design. I ran with the 60s theme throughout the site seen. There were bright colors
+throughoutand there was a groovy header background to fit the theme.
