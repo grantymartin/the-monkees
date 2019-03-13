@@ -1,4 +1,4 @@
-The Monkees
+**The Monkees**
 
 This is a five page site aimed at promoting the Monkees band throughthe following pages
 "home"
@@ -9,14 +9,14 @@ This is a five page site aimed at promoting the Monkees band throughthe followin
 Each page contains diifrent snippets of information about the band and their music. As the band was started in the 1960s I decided to go with
 a 60s theme. This consisted of including bright background colours and a groovy 60s style background for the header.
 
-UX:
+UX
 
 This site allows the user a better insight to the Monkees band and helps promote their music and availability. 
 
 As a user you can listen to diffrent songs, watch a music video or simply look through varying photo's. Links to the social media pages also allows
 for more up to date details and a further insight into the band.
 
-Features:
+Features
 
 On the index page their are clear links to everypage which will allow for further detail on the specific topic. This also is followed by a full width video
 on larger screen sizes that gives the viewer a greater understanding of the bands music and style.
