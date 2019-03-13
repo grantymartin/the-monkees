@@ -35,7 +35,7 @@ On the "Social Media" page there are clear links to all the bands social media a
 There is hover animations spread throughout the site from the header links to the social media icons that make the user experience that little bit better
 and enjoyable as it helps them fully understand what they are doing.
 
-Links to the Social accounts are currently unlinked for the purpose of this project site and the availability form is also not responsive.
+Every link is conected to the appropriate Social accounts.
 
 Every element and design was made using HTML and CSS.
 
@@ -62,8 +62,14 @@ covered each other.
 When first uploading my site to git hub I found that the images/video and sound would'nt appear on the public site but worked perfectly well on the Cloud 9 preview 
 site. After working with my tutor we descovered it was due to the reason all the images were set as relative links when they should really be absolute.
 
+When analysing the site after it was deployed my mentor helped to point out problem when the site was deployed on a larger screen. On the "our story" page the imaged that is 
+floating to the right of the text would disrub the images at the botton of the screen as they not in a seperate div. Also on the same page he pointed out that 
+the quotes section had too much space between so I set a max-width and set {margin: 0px auto;} which meant the quotes would be together and 
+the site would look much better.
+
 ### Credits:
 All the information was taken from the following sites:
+
 https://en.wikipedia.org/wiki/The_Monkees
 https://www.brainyquote.com/authors/peter_tork
 https://www.brainyquote.com/search_results?q=Michael+Nesmith
@@ -73,7 +79,9 @@ https://www.brainyquote.com/authors/davy_jones
 The events dates info from the "event/availability" page is incorrect and false (simply for the project).
 
 ### Media
-The photos used in this site were obtained either from the following git hub repository(https://github.com/Code-Institute-Org/project-assets)
+The photos used in this site were obtained either from the following git hub repository
+https://github.com/Code-Institute-Org/project-assets
+
 or from the folling sites:
 
 https://cs.m.wikipedia.org/wiki/Soubor:The_Monkees_May_1967.jpg
