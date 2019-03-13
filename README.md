@@ -1,4 +1,4 @@
-**The Monkees**
+#**The Monkees**
 
 This is a five page site aimed at promoting the Monkees band throughthe following pages
 "home"
@@ -9,14 +9,14 @@ This is a five page site aimed at promoting the Monkees band throughthe followin
 Each page contains diifrent snippets of information about the band and their music. As the band was started in the 1960s I decided to go with
 a 60s theme. This consisted of including bright background colours and a groovy 60s style background for the header.
 
-UX
+##UX
 
 This site allows the user a better insight to the Monkees band and helps promote their music and availability. 
 
 As a user you can listen to diffrent songs, watch a music video or simply look through varying photo's. Links to the social media pages also allows
 for more up to date details and a further insight into the band.
 
-Features
+##Features
 
 On the index page their are clear links to everypage which will allow for further detail on the specific topic. This also is followed by a full width video
 on larger screen sizes that gives the viewer a greater understanding of the bands music and style.
@@ -41,7 +41,7 @@ Every element and design was made using HTML and CSS.
 
 All wireframes and planning was written out in paper before the project was started.
 
-Testing
+##Testing
 
 To test my site I took multiple diffrent approaches. 
 Firstly I used google chrome to inspect my site on diffrent screen sizes and insure it was fully functional.
@@ -57,12 +57,12 @@ section and creating an image background cover along with a fade to make the wri
 at the same time and at the same size. After a lot of diffrent testing I found what I needed to do was re-arrange the order in which the backgrounds
 covered each other.
 
-Deployment
+##Deployment
 
 When first uploading my site to git hub I found that the images/video and sound would'nt appear on the public site but worked perfectly well on the Cloud 9 preview 
 site. After working with my tutor we descovered it was due to the reason all the images were set as relative links when they should really be absolute.
 
-Credits:
+###Credits:
 All the information was taken from the following sites:
 https://en.wikipedia.org/wiki/The_Monkees
 https://www.brainyquote.com/authors/peter_tork
@@ -72,7 +72,7 @@ https://www.brainyquote.com/authors/davy_jones
 
 The events dates info from the "event/availability" page is incorrect and false (simply for the project).
 
-Media
+###Media
 The photos used in this site were obtained either from the following git hub repository(https://github.com/Code-Institute-Org/project-assets)
 or from the folling sites:
 
@@ -87,6 +87,6 @@ https://en.wikipedia.org/wiki/Daydream_Believer
 https://www.stereogum.com/2016576/the-number-ones-the-monkees-im-a-believer/franchises/the-number-ones/
 https://en.wikipedia.org/wiki/Last_Train_to_Clarksville
 
-Acknowledgements
+###Acknowledgements
 I received inspiration for this project from my Dad in term of the design. I ran with the 60s theme throughout the site seen. There were bright colors
 throughoutand there was a groovy header background to fit the theme.
