@@ -32,8 +32,17 @@ html {
     color: #ffffff;
 }
 
-.line{
+.line {
     color: #ffffff;
+}
+
+.added-margin {
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.added-padding{
+    padding-bottom: 30px;
 }
 
 /*..................................................................................bg-colors*/
@@ -46,23 +55,23 @@ html {
 }
 
 .footer-bg-color {
-    background-color: #717171;
+    background-color: #ffffff;
 }
 
 .menu-option-1 {
-    background-color: #ac4097;
+    background-color: #27AE60;
 }
 
 .menu-option-2 {
-    background-color: #fdfc06;
+    background-color: #af19fa;
 }
 
 .menu-option-3 {
-    background-color: #f39314;
+    background-color: #2874A6;
 }
 
 .menu-option-4 {
-    background-color: #ee228c;
+    background-color: #d65b00;
 }
 
 .events-bg {
@@ -73,15 +82,8 @@ html {
     background: rgba(0, 0, 0, 0.5)
 }
 
-.events-list-bg {
-    background-image: url(../images/monkees-events-bg.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
 .availability-bg {
-    background-color: #004cda;
+    background-color: #af19fa;
 }
 
 .social-media-bg {
@@ -215,6 +217,8 @@ html {
     font-weight: 700;
     font-size: 35px;
     color: #ffffff;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .events-list {
@@ -225,17 +229,19 @@ html {
     list-style: none;
     z-index: 1;
     text-align: center;
-    height: 600px;
 }
 
 .events-list-item {
-    margin-bottom: 45px;
+    padding-bottom: 45px;
 }
 
 .events {
     margin: 0 auto;
     width: 100%;
-    height: 600px;
+}
+
+.events-intro {
+    color: #ffffff;
 }
 
 .in-line {
@@ -329,6 +335,11 @@ html {
 
 /*..................................................................................Our-story*/
 
+.quotes {
+    max-width: 1500px;
+    margin: 0px auto;
+}
+
 .title-4 {
     text-align: center;
     font-family: "Righteous", sans-serif;
@@ -382,7 +393,9 @@ html {
 
 .music {
     display: table;
-    margin: 10px auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 140px;
     width: 50%;
 }
 
@@ -519,18 +532,21 @@ html {
         font-size: 15px;
     }
 
+    .events-list {
+        font-size: 30px;
+    }
+
     .events {
         margin: 0 auto;
         width: 70%;
-        height: 600px;
     }
 
     .events-tickets {
-        font-size: 15px;
+        font-size: 20px;
     }
 
     .sold-out {
-        font-size: 15px;
+        font-size: 25px;
     }
 
     .form-item-details {
@@ -547,7 +563,7 @@ html {
         height: 270px;
         margin: 5px 15px;
     }
-    
+
     .album-logo {
         width: 450px;
         height: 450px;
